@@ -1,0 +1,14 @@
+{
+  "extends": "react-app",
+  "rules": {
+    "react/style-prop-object": "off",
+    "jsx-a11y/anchor-is-valid": "off",
+    "jsx-a11y/heading-has-content": "off",
+    "jsx-a11y/iframe-has-title": "off",
+    "no-undef": "off",
+    "no-unused-expressions": "off",
+    "jsx-a11y/img-redundant-alt": "off",
+    "eqeqeq": "off",
+    "no-sequences": "off"
+  }
+}

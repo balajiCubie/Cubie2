@@ -1,0 +1,40 @@
+import React, { Fragment } from "react";
+import { Link } from "gatsby";
+
+const PageHeader2 = ({ title, links }) => {
+  return (
+    <header
+      className="page-app-header valign bg-img"
+      data-overlay-dark="8"
+      style={{ backgroundImage: "url(/img/mobile-app/p1.jpg)" }}
+    >
+      <div className="container">
+        <div className="row">
+          <div className="col-12">
+            <div className="text-center">
+              <h1>{title}</h1>
+              <div className="links">
+                {
+                  links.map((item, index) => (
+                    <Fragment key={item.id}>
+                      <Link to={item.url} >
+                        {item.name}
+                      </Link>
+                      {index + 1 != links.length ? (
+                        <span className="icon pe-7s-angle-right"></span>
+                      ) : (
+                        ""
+                      )}
+                    </Fragment>
+                  ))
+                }
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
+
+export default PageHeader2;
