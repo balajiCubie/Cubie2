@@ -1,0 +1,1 @@
+{"version":3,"file":"component---src-pages-404-js-50d913078f8ab20f5239.js","mappings":"kIAMA,UAJkB,WAChB,OAAO,iDACT,C","sources":["webpack://vie_gatsby/./src/pages/404.js"],"sourcesContent":["import React from \"react\";\r\n\r\nconst ErrorPage = () => {\r\n  return <h1>404 - Page Not Found</h1>;\r\n};\r\n\r\nexport default ErrorPage;\r\n"],"names":[],"sourceRoot":""}
