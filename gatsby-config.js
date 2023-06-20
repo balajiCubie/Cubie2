@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "/Cubie3",
+  pathPrefix: "/Cubie2",
   siteMetadata: {
     title: 'Vie',
     description: 'Vie - Multi-Purpose React.js Gatsby Template',
